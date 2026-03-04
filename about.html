@@ -1,0 +1,711 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- ========== Page Title ========== -->
+    <title>Restaurant</title>
+
+    <!-- ========== Favicon Icon ========== -->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <!-- ========== Start Stylesheet ========== -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/flaticon-set.css" rel="stylesheet">
+    <link href="assets/css/magnific-popup.css" rel="stylesheet">
+    <link href="assets/css/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/css/animate.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-datepicker3.css" rel="stylesheet">
+    <link href="assets/css/validnavs.css" rel="stylesheet">
+    <link href="assets/css/helper.css" rel="stylesheet">
+    <link href="assets/css/unit-test.css" rel="stylesheet">
+    <link href="assets/css/shop.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <!-- ========== End Stylesheet ========== -->
+
+    <!-- gallery fancy box -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css" integrity="sha512-nNlU0WK2QfKsuEmdcTwkeh+lhGs6uyOxuUs+n+0oXSYDok5qy0EI0lt01ZynHq6+p/tbgpZ7P+yUb+r71wqdXg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+    <div class="radio-btn-light d-none">
+        <div class="radio-inner-light"></div>
+    </div>
+
+    <!-- Start Preloader 
+    ============================================= -->
+    <div id="preloader" class="d-none">
+        <div id="restan-preloader" class="restan-preloader">
+            <div class="animation-preloader">
+                <div class="spinner"></div>
+            </div>
+            <div class="loader">
+                <div class="row">
+                    <div class="col-3 loader-section section-left">
+                        <div class="bg"></div>
+                    </div>
+                    <div class="col-3 loader-section section-left">
+                        <div class="bg"></div>
+                    </div>
+                    <div class="col-3 loader-section section-right">
+                        <div class="bg"></div>
+                    </div>
+                    <div class="col-3 loader-section section-right">
+                        <div class="bg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Preloader -->
+
+    <!-- Header 
+    ============================================= -->
+    <header>
+        <!-- Start Navigation -->
+        <nav class="navbar mobile-sidenav navbar-box navbar-default validnavs navbar-sticky">
+
+
+            <div class="container nav-box d-flex justify-content-between align-items-center">            
+
+                <!-- Start Header Navigation -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                        <i class="far fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand" href="index.html">
+                        <img src="assets/img/logo.png" class="logo" alt="Logo">
+                    </a>
+                </div>
+                <!-- End Header Navigation -->
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="navbar-menu">
+
+                    <img src="assets/img/logo.png" alt="Logo">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                        <i class="fa fa-times"></i>
+                    </button>
+                    
+                    <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+                        <li class="dropdown"> <a href="#">Home</a> </li>
+                        <li class="dropdown"> <a href="#">Menu</a> </li>
+                        <li class="dropdown"> <a href="#">Catering</a> </li>
+                        <li class="dropdown"> <a href="#">About Us</a> </li>
+                        <li class="dropdown"> <a href="#">Blog</a> </li>
+                        <li class="dropdown"> <a href="#">Contact Us</a> </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+
+                <div class="attr-right">
+                    <a href="tel:0405 456 467">
+                        <span class="btn circle btn-md btn-light animation button_header"> <i class="fa fa-phone-volume"></i> <span class="numb">0405 456 467</span></span>
+                    </a>
+                </div>
+
+            </div>   
+            <!-- Overlay screen for menu -->
+            <div class="overlay-screen"></div>
+            <!-- End Overlay screen for menu -->
+
+        </nav>
+        <!-- End Navigation -->
+    </header>
+    <!-- End Header -->
+
+
+     <!-- Start Breadcrumb 
+    ============================================= -->
+    <div class="breadcrumb-area bg-cover text-center text-light" style="background-image: url(assets/img/shape/11.jpg);">
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <h1>About Us</h1>
+                    <ul class="breadcrumb">
+                        <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+                        <li>About Us</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Breadcrumb -->
+
+    
+    <!-- Start Welcome 
+    ============================================= -->
+    <div class="pycustom">
+        <div class="container pt-5">
+            <div class="about-style-three-items welcome_sec">
+                <div class="row">
+                    <div class="col-xl-6">
+                        <div class="about-style-three-content bg-white abseclefted">
+                            <img src="assets/img/shape/7.png" alt="Image Not Found">
+                            <h2 class="split-text">Welcome To Our Luxury Restaurant</h2>
+                            <p class="wow fadeInUp" data-wow-delay="150ms">
+                                The first restaurant proprietor is believed to have been one A. Boulanger, a soup vendor, who opened his business in Paris in 1765. The sign above his door advertised restoratives, or restaurants, referring to the soups and broths available within.
+                            </p>
+                            <p class="wow fadeInUp" data-wow-delay="150ms">
+                                The first restaurant proprietor is believed to have been one A. Boulanger, a soup vendor, who opened his business in Paris in 1765. The sign above his door advertised restoratives, or restaurants, referring to the soups and broths available within.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-xl-6">
+                        <div class="thumb-style-two wow fadeInUp resto_image rintroimg">
+                           <img src="assets/img/gallaryitem8.jpeg" alt="Image Not Found" class="shadowimage">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Welcome -->
+
+
+     <!-- Gallery
+    ============================================= -->
+    <div class="feature-style-two-area default-padding bg-dark text-light pycustom" style="background-image: url(assets/img/shape/2.jpg); background-size: cover;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="site-heading text-center mb-4">
+                        <h4 class="sub-title">Our Gallery</h4>
+                        <h2 class="title split-text">Our Few Dish Glimpses</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row myFancyGallery gallery_row_main">
+                <div class="fancy_item">
+                    <a href="assets/img/gallaryitem5.jpeg" data-fancybox="gallery" data-caption="Gallery Image">
+                        <img src="assets/img/gallaryitem5.jpeg" alt="Gallery Image" loading="lazy" />
+                    </a>
+                </div>
+                <div class="fancy_item">
+                    <a href="assets/img/gallaryitem1.jpeg" data-fancybox="gallery" data-caption="Gallery Image">
+                        <img src="assets/img/gallaryitem1.jpeg" alt="Gallery Image" loading="lazy" />
+                    </a>
+                </div>
+                <div class="fancy_item">
+                    <a href="assets/img/gallaryitem2.jpeg" data-fancybox="gallery" data-caption="Gallery Image">
+                        <img src="assets/img/gallaryitem2.jpeg" alt="Gallery Image" loading="lazy" />
+                    </a>
+                </div>
+                <div class="fancy_item">
+                    <a href="assets/img/gallaryitem4.jpeg" data-fancybox="gallery" data-caption="Gallery Image">
+                        <img src="assets/img/gallaryitem4.jpeg" alt="Gallery Image" loading="lazy" />
+                    </a>
+                </div>
+                <div class="fancy_item">
+                    <a href="assets/img/gallaryitem8.jpeg" data-fancybox="gallery" data-caption="Gallery Image">
+                        <img src="assets/img/gallaryitem8.jpeg" alt="Gallery Image" loading="lazy" />
+                    </a>
+                </div>
+                <div class="fancy_item">
+                    <a href="assets/img/gallaryitem9.jpeg" data-fancybox="gallery" data-caption="Gallery Image">
+                        <img src="assets/img/gallaryitem9.jpeg" alt="Gallery Image" loading="lazy" />
+                    </a>
+                </div>
+                <div class="fancy_item">
+                    <a href="assets/img/gallaryitem8.jpeg" data-fancybox="gallery" data-caption="Gallery Image">
+                        <img src="assets/img/gallaryitem11.jpeg" alt="Gallery Image" loading="lazy" />
+                    </a>
+                </div>
+                <div class="fancy_item">
+                    <a href="assets/img/gallaryitem10.jpeg" data-fancybox="gallery" data-caption="Gallery Image">
+                        <img src="assets/img/gallaryitem10.jpeg" alt="Gallery Image" loading="lazy" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Gallery -->
+
+
+    <!-- Start Feature
+    ============================================= -->
+    <div class="feature-style-one-area default-padding-top overflow-hidden pb-5">
+        <div class="container">
+            <div class="row">
+                <!-- Single Item -->
+                <div class="col-lg-3 col-md-6 feature-one-single">
+                    <div class="feature-style-one-item wow fadeInUp">
+                        <img src="assets/img/icon/6.png" alt="Image Not Found" class="mt-0 pt-0">
+                        <h4>Best Quality Food</h4>
+                        <p>
+                            Excellence projecting is devonshire dispatched remarkably on estimating. Side in so life past.
+                        </p>
+                    </div>
+                 </div>
+                <!-- End Single Item -->
+                 <!-- Single Item -->
+                 <div class="col-lg-3 col-md-6 feature-one-single">
+                    <div class="feature-style-one-item wow fadeInDown">
+                        <img src="assets/img/icon/7.png" alt="Image Not Found">
+                        <h4>Home delivery</h4>
+                        <p>
+                            Excellence projecting is devonshire dispatched remarkably on estimating. Side in so life past.
+                        </p>
+                    </div>
+                 </div>
+                <!-- End Single Item -->
+                 <!-- Single Item -->
+                 <div class="col-lg-3 col-md-6 feature-one-single">
+                    <div class="feature-style-one-item wow fadeInUp">
+                        <img src="assets/img/icon/8.png" alt="Image Not Found">
+                        <h4>Real Taste</h4>
+                        <p>
+                            Excellence projecting is devonshire dispatched remarkably on estimating. Side in so life past.
+                        </p>
+                    </div>
+                 </div>
+                <!-- End Single Item -->
+                 <!-- Single Item -->
+                 <div class="col-lg-3 col-md-6 feature-one-single">
+                    <div class="feature-style-one-item wow fadeInDown">
+                        <img src="assets/img/icon/9.png" alt="Image Not Found">
+                        <h4>Traditional food</h4>
+                        <p>
+                            Excellence projecting is devonshire dispatched remarkably on estimating. Side in so life past.
+                        </p>
+                    </div>
+                 </div>
+                <!-- End Single Item -->
+            </div>
+        </div>
+    </div>
+    <!-- End Feature -->
+
+
+     <!-- Start Welcome 
+    ============================================= -->
+    <div class="pycustom" style="background: #ebe9e6;">
+        <div class="container pt-5">
+            <div class="about-style-three-items welcome_sec">
+                <div class="row">
+                    <div class="col-xl-6">
+                        <div class="about-style-three-content abseclefted">
+                            <img src="assets/img/shape/7.png" alt="Image Not Found">
+                            <h2 class="split-text">Best Chicken in Sydney Australia</h2>
+                            <p class="wow fadeInUp" data-wow-delay="150ms">
+                                The first restaurant proprietor is believed to have been one A. Boulanger, a soup vendor, who opened his business in Paris in 1765. The sign above his door advertised restoratives, or restaurants, referring to the soups and broths available within.
+                            </p>
+                            <p class="wow fadeInUp" data-wow-delay="150ms">
+                                The first restaurant proprietor is believed to have been one A. Boulanger, a soup vendor, who opened his business in Paris in 1765. The sign above his door advertised restoratives, or restaurants, referring to the soups and broths available within.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-xl-6">
+                        <div class="thumb-style-two wow fadeInUp resto_image rintroimg">
+                           <img src="assets/img/gallaryitem9.jpeg" alt="Image Not Found" class="shadowimage">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Welcome -->
+
+
+    <!-- Start Reservation 
+    ============================================= -->
+    <div class="reservation-style-one-area pycustom abtresrv">
+        <div class="container">
+            <div class="reservation-style-one-items bg-light text-dark wow fadeInUp">
+                <div class="row formsec_row">
+                    <div class="col-xl-6 col-lg-5">
+                        <div class="maps-area">   
+                           <div class="contact-style-one-items">
+                               <div class="container p-0">
+                                   <div class="contact-style-one-box">
+                                        <div class="contact-style-one-info abtctpage">
+                                            <h2>Find Food Lounge</h2>
+                                            <p>
+                                                Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties but why she shewing.
+                                            </p>
+                                            <ul>
+                                                <li class="wow fadeInUp">
+                                                    <div class="icon">
+                                                        <i class="fas fa-phone-alt"></i>
+                                                    </div>
+                                                    <div class="content">
+                                                        <h5 class="title">Hotline</h5>
+                                                        <a href="">+4733378901</a>
+                                                    </div>
+                                                </li>
+                                                <li class="wow fadeInUp" data-wow-delay="100ms">
+                                                    <div class="icon">
+                                                        <i class="fas fa-map-marker-alt"></i>
+                                                    </div>
+                                                    <div class="info">
+                                                        <h5 class="title">Our Location</h5>
+                                                        <p>
+                                                            55 Main Street, The Grand Avenue 2nd Block, <br> New York City
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li class="wow fadeInUp" data-wow-delay="200ms">
+                                                    <div class="icon">
+                                                        <i class="fas fa-envelope-open-text"></i>
+                                                    </div>
+                                                    <div class="info">
+                                                        <h5 class="title">Official Email</h5>
+                                                        <a href="mailto:info@agrul.com.com">info@gixus.com</a>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <div class="footer-socila-items mt-5 contact_socials">
+                                            <h4>Follow Us on Social: </h4>
+                                            <ul class="footer-social">
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fab fa-facebook-f"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fab fa-instagram"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fab fa-linkedin-in"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        </div>
+                                        
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-7 reservation-info contact-form-style-one contact_page_form" style="background: transparent;">
+                        <h3 class="mb-4">Send Us Message</h3>
+                         <form action="assets/mail/contact.php" method="POST" class="contact-form contact-form">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <input class="form-control" id="name" name="name" placeholder="Full Name" type="text">
+                                        <span class="alert-error"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <input class="form-control" id="email" name="email" placeholder="Email*" type="email">
+                                        <span class="alert-error"></span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <input class="form-control" id="phone" name="phone" placeholder="Phone" type="text">
+                                        <span class="alert-error"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group comments">
+                                        <textarea class="form-control" id="comments" name="comments" placeholder="Your Message *"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <button type="submit" name="submit" id="submit">
+                                        <i class="fa fa-paper-plane"></i> Submit
+                                    </button>
+                                </div>
+                            </div>
+                            <!-- Alert Message -->
+                            <div class="col-lg-12 alert-notification">
+                                <div id="message" class="alert-msg"></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Reservation Area -->
+
+
+    <!-- Start Footer 
+    ============================================= -->
+    <footer class="bg-dark footer-style-one text-light"style="background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(assets/img/hero-bg-2.jpg); background-size: cover;">
+        <div class="container">
+            <div class="row">
+                <!-- Singel Item -->
+                <div class="col-lg-3 col-md-6 footer-item mt-50">
+                    <div class="f-item about">
+                        <img src="assets/img/logo-3.png" alt="Image Not Found">
+                        <p>
+                            Discover culinary delights recipes and inspiration in our food haven.  Discover culinary delights recipes and inspiration in our food haven.  Discover culinary delights recipes and inspiration in our food haven.  Discover culinary delights recipes and inspiration in our food haven.  Discover culinary delights.
+                        </p>                 
+                    </div>
+                </div>
+                <!-- End Singel Item -->
+
+                <!-- Singel Item -->
+                <div class="col-lg-2 col-md-6 mt-50 footer-item pl-50 pl-md-15 pl-xs-15">
+                    <div class="f-item link">
+                        <h4 class="widget-title">Explore</h4>
+                        <ul>
+                            <li>
+                                <a href="">About Us</a>
+                            </li>
+                            <li>
+                                <a href="">Contact Us</a>
+                            </li>
+                            <li>
+                                <a href="">Food Menu</a>
+                            </li>
+                            <li>
+                                <a href="">Catering</a>
+                            </li>
+                            <li>
+                                <a href="">Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End Singel Item -->
+
+                <!-- Singel Item -->
+                <div class="col-lg-3 col-md-6 footer-item  mt-50">
+                    <div class="f-item contact">
+                        <h4 class="widget-title">Contact Info</h4>
+                        <ul class="contact-widget">
+                            <li>
+                                <div class="icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="content">
+                                    175 10h Street, Office 375 Berlin, De 21562
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="content">
+                                    <a href="tel:2151234567">+123 34598768</a> <br> <a href="tel:2151234567">+554 34598734</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="content">
+                                    <a href="mailto:name@email.com">food@restan.com</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End Singel Item -->
+
+                <!-- Singel Item -->
+                <div class="col-lg-4 col-md-6 footer-item mt-50" style="background: transparent;">
+                    <div class="f-item newsletter">
+                        <h4 class="widget-title">Opening Hours</h4>
+                        <ul class="opening-list">
+                            <li>
+                                Mon  -  Fri <span class="text-end">8:00 AM  -  6:00 PM</span>
+                            </li>
+                            <li>
+                                Saturday <span class="text-end">9:00 AM  -  5:00 PM</span>
+                            </li>
+                        </ul> 
+                        <div class="footer-socila-items mt-50">
+                            <h4>Follow Us on Social: </h4><br>
+                            <ul class="footer-social">
+                                <li>
+                                    <a href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Singel Item -->
+
+
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="row align-center">
+                    <div class="col-lg-6">
+                        <p>
+                            © 2026, Developed By <a href="https://appandwebsite.au" target="_blank">App and Website</a>
+                        </p>
+                    </div>
+                    <div class="col-lg-6 pvtext">
+                      <p><a href="" target="_blank">Privacy Policy</a></p>  
+                    </div>
+                </div>
+            </div>
+            <!-- End Footer Bottom -->
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    
+    <!-- jQuery Frameworks
+    ============================================= -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery.appear.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/progress-bar.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/magnific-popup.min.js"></script>
+    <script src="assets/js/count-to.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/YTPlayer.min.js"></script>
+    <script src="assets/js/loopcounter.js"></script>
+    <script src="assets/js/validnavs.js"></script>
+    <script src="assets/js/bootstrap-datepicker.js"></script>
+    <script src="assets/js/gsap.js"></script>
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <script src="assets/js/SplitText.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+
+
+<!-- for gallery fancybox -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.js" integrity="sha512-j7/1CJweOskkQiS5RD9W8zhEG9D9vpgByNGxPIqkO5KrXrwyDAroM9aQ9w8J7oRqwxGyz429hPVk/zR6IOMtSA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+    $('[data-fancybox="gallery"]').fancybox({
+        buttons: [
+            "share",
+            "download",
+            //   "zoom",
+            "slideShow",
+            "fullscreen",
+            "thumbs",
+            "close"
+        ],
+    });
+</script>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const slider = document.querySelector(".foodu-cat-slider");
+    const items = document.querySelectorAll(".foodu-cat-item");
+    const dotsContainer = document.querySelector(".foodu-cat-dots");
+
+    let index = 0;
+    let itemsPerView = getItemsPerView();
+    let totalSlides = 0;
+    let autoSlide;
+
+    function getItemsPerView() {
+        if (window.innerWidth <= 575) return 2;
+        if (window.innerWidth <= 991) return 4;
+        return 6;
+    }
+
+    function checkOverflow() {
+        return items.length > itemsPerView;
+    }
+
+    function createDots() {
+        dotsContainer.innerHTML = "";
+        totalSlides = Math.ceil(items.length / itemsPerView);
+
+        if (!checkOverflow()) {
+            dotsContainer.style.display = "none";
+            clearInterval(autoSlide);
+            slider.style.transform = "translateX(0)";
+            return;
+        }
+
+        dotsContainer.style.display = "block";
+
+        for (let i = 0; i < totalSlides; i++) {
+            const dot = document.createElement("span");
+            dot.classList.add("foodu-cat-dot");
+            if (i === 0) dot.classList.add("active");
+
+            dot.addEventListener("click", () => {
+                index = i;
+                updateSlider();
+            });
+
+            dotsContainer.appendChild(dot);
+        }
+
+        startAutoplay();
+    }
+
+    function updateSlider() {
+        const itemWidth = items[0].offsetWidth + 30;
+        slider.style.transform = `translateX(-${index * itemWidth * itemsPerView}px)`;
+
+        document.querySelectorAll(".foodu-cat-dot").forEach(dot => dot.classList.remove("active"));
+        if (document.querySelectorAll(".foodu-cat-dot")[index]) {
+            document.querySelectorAll(".foodu-cat-dot")[index].classList.add("active");
+        }
+    }
+
+    function startAutoplay() {
+        clearInterval(autoSlide);
+        autoSlide = setInterval(() => {
+            index++;
+            if (index >= totalSlides) {
+                index = 0;
+            }
+            updateSlider();
+        }, 3000);
+    }
+
+    window.addEventListener("resize", function () {
+        itemsPerView = getItemsPerView();
+        index = 0;
+        createDots();
+        updateSlider();
+    });
+
+    createDots();
+
+});
+</script>
+
+
+</body>
+</html>

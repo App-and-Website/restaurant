@@ -295,3 +295,579 @@ p {
 }
 }
 
+
+
+/* ===== SECTION ===== */
+
+.foodu-cat-section {
+    padding: 60px 0;
+    background: #fcf5f5;
+}
+
+.foodu-cat-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.foodu-cat-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #111;
+}
+
+/* ===== SLIDER ===== */
+
+.foodu-cat-slider-wrapper {
+    overflow: hidden;
+    position: relative;
+}
+
+.foodu-cat-slider {
+    display: flex;
+    gap: 30px;
+    transition: transform 0.5s ease;
+}
+
+/* Items per screen */
+
+.foodu-cat-item {
+    flex: 0 0 calc((100% - 150px) / 6);
+    text-decoration: none;
+}
+
+/* 4 items */
+@media (max-width: 991px) {
+    .foodu-cat-item {
+        flex: 0 0 calc((100% - 90px) / 4);
+    }
+}
+
+/* 2 items */
+@media (max-width: 575px) {
+    .foodu-cat-item {
+        flex: 0 0 calc((100% - 30px) / 2);
+    }
+}
+
+/* Image */
+
+.foodu-cat-img-wrap {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #fff;
+    border: 4px solid #fff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px;
+}
+
+.foodu-cat-img-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.foodu-cat-name {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #222;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.foodu-cat-item:hover .foodu-cat-name {
+    color: #ff2e2e;
+}
+
+/* Dots */
+
+.foodu-cat-dots {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.foodu-cat-dot {
+    width: 10px;
+    height: 10px;
+    background: #ccc;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.foodu-cat-dot.active {
+    background: #ff2e2e;
+}
+
+
+.contact-style-one-info {
+    padding: 60px;
+}
+.google-maps iframe{
+    width: 100%;
+    height: 420px;
+    border: 4px solid #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-top: 60px;
+}
+.contact-style-one-items {
+    position: relative;
+}
+.contact_page_form{
+    background: #faeff1!important;
+}
+.contact_socials{
+    display: block;
+}
+.contact_socials ul {
+    margin-top: -20px;
+}
+.contact_socials ul li{
+    margin-right: 20px;
+}
+.contact_socials ul li:nth-child(1) i {
+   background: #0866ff;
+}
+.contact_socials ul li:nth-child(2) i {
+   background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+}
+.contact_socials ul li:nth-child(3) i {
+   background: #0070ad;
+}
+ul.footer-social li a:hover {
+    background: none;
+}
+@media (max-width: 768px) {
+.contact-style-one-info {
+    padding: 40px 0px;
+}
+}
+
+
+.blog-area .item {
+    background: transparent;
+}
+.sidebar .sidebar-item {
+    background: #fff;
+}
+.blogsidebaricons i{
+    font-size: 20px;
+}
+
+.abseclefted{
+    padding: 0 40px 30px 20px;
+}
+.abseclefted img{
+    margin: 0px;
+    margin-bottom: 20px;
+}
+.abtctpage{
+    padding: 0!important;
+}
+@media (max-width: 992px) {
+.abtresrv .contact_page_form{
+    margin-top: 80px!important;
+}
+.abtresrv ul{
+    margin-top: 20px!important;
+}
+}
+@media (max-width: 768px) {
+.abseclefted{
+    padding: 0 40px 0px 20px;
+}
+.rintroimg img{
+    margin-top: 0!important;
+}
+}
+
+
+
+.foodu-cater-split {
+    padding: 60px 0;
+    background: #fcf5f5;
+}
+
+.foodu-cater-split-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+}
+
+.foodu-cater-split-img img {
+    width: 100%;
+    border-radius: 14px;
+}
+
+.foodu-cater-split-content h2 {
+    font-size: 38px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.foodu-cater-split-content ul {
+    list-style: none;
+    padding: 0;
+    margin-top: -20px;
+    margin-bottom: 25px;
+}
+.foodu-cater-split-content a:hover{
+color: #fff;
+}
+.foodu-cater-split-content li {
+    margin-bottom: 0px;
+    font-weight: 500;
+}
+
+@media(max-width: 991px){
+    .foodu-cater-split-grid{
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+.foodu-cater-services {
+    padding: 60px 0;
+}
+
+.foodu-cater-title-center {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.foodu-cater-title-center h2 {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.foodu-cater-services-grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+}
+
+.foodu-cater-service-card {
+    background: #fff;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.05);
+    text-align: center;
+    transition: 0.3s;
+}
+
+.foodu-cater-service-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.foodu-cater-service-card h4 {
+    padding: 20px;
+    font-weight: 700;
+}
+
+.foodu-cater-service-card:hover {
+    transform: translateY(-6px);
+}
+
+@media(max-width: 991px){
+    .foodu-cater-services-grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media(max-width: 575px){
+    .foodu-cater-services-grid{
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+
+
+.foodu-cater-btn-secondary {
+    background: #ff2e2e;
+    padding: 14px 35px;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 700;
+}
+.foodu-cater-form {
+    padding: 60px 0;
+}
+
+.foodu-cater-form-wrapper {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.foodu-cater-form-wrapper h2 {
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.foodu-cater-form-grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+.foodu-cater-form-grid input,
+.foodu-cater-form-grid select,
+.foodu-cater-form-grid textarea {
+    padding: 14px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.foodu-cater-form-grid textarea {
+    grid-column: span 2;
+    min-height: 120px;
+}
+
+.foodu-cater-form-grid button {
+    grid-column: span 2;
+    padding: 14px;
+    background: #ff2e2e;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.foodu-cater-form-grid button::after {
+    background: #d31e1e;
+}
+
+@media(max-width: 575px){
+    .foodu-cater-form-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .foodu-cater-form-grid textarea,
+    .foodu-cater-form-grid button{
+        grid-column: span 1;
+    }
+}
+
+
+
+.catering_showcase_section {
+    padding: 60px 0px;
+    background: #f9f9f9;
+}
+
+.catering_wrapper {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.catering_heading_area {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.catering_heading_area h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+.catering_heading_area p {
+    font-size: 18px;
+}
+
+.catering_grid_layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.catering_card_box {
+    background: #fff;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+    transition: 0.4s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.catering_card_box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+}
+
+.catering_img_area {
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+}
+
+.catering_img_area img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+.catering_card_box:hover .catering_img_area img {
+    transform: scale(1.1);
+}
+
+.catering_content_area {
+    padding: 25px;
+}
+
+.catering_content_area h3 {
+    margin-bottom: 12px;
+    font-size: 20px;
+    color: #222;
+}
+
+.highlight_chicken_card:hover {
+    transform: scale(1.06);
+}
+
+@media (max-width: 768px) {
+
+    .catering_heading_area h2 {
+        font-size: 28px;
+    }
+
+    .catering_img_area {
+        height: 200px;
+    }
+
+}
+
+
+.thankyou_page_section {
+    padding: 60px 20px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, #fff7ed, #ffffff);
+}
+
+.thankyou_wrapper_box {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+}
+
+.thankyou_content_area {
+    text-align: left;
+}
+
+.thankyou_icon_circle {
+    width: 80px;
+    height: 80px;
+    background: #fcb045;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    box-shadow: 0 10px 25px rgba(252, 176, 69, 0.4);
+}
+
+.thankyou_content_area h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.thankyou_content_area p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    max-width: 500px;
+}
+
+.thankyou_action_buttons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.thankyou_btn_primary {
+    padding: 12px 28px;
+    background: #fcb045;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 40px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.thankyou_btn_primary:hover {
+    background: #ff9900;
+    transform: translateY(-3px);
+}
+
+.thankyou_btn_outline {
+    padding: 12px 28px;
+    border: 2px solid #fcb045;
+    color: #fcb045;
+    text-decoration: none;
+    border-radius: 40px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.thankyou_btn_outline:hover {
+    background: #fcb045;
+    color: #fff;
+    transform: translateY(-3px);
+}
+
+.thankyou_image_area img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.08);
+}
+
+/* Responsive */
+
+@media (max-width: 992px) {
+    .thankyou_icon_circle{
+        margin: 20px auto;
+    }
+    .thankyou_wrapper_box {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .thankyou_content_area {
+        text-align: center;
+    }
+
+    .thankyou_content_area p {
+        margin: 0 auto 30px;
+    }
+
+    .thankyou_action_buttons {
+        justify-content: center;
+    }
+
+}
+

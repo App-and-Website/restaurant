@@ -163,47 +163,47 @@
     <!-- End Banner -->
 
 
-<section class="fd-feature-quick-section">
-    <div class="fd-feature-quick-container container">
-        
-        <div class="fd-feature-quick-card">
-            <div class="fd-feature-quick-icon">🍔</div>
-            <h3 class="fd-feature-quick-title">Menu</h3>
-            <p class="fd-feature-quick-text">
-                Explore our delicious starters, burgers, pizzas and special chef dishes.
-            </p>
-            <a href="#" class="fd-feature-quick-btn">View Menu</a>
+    <section class="fd-feature-quick-section">
+        <div class="fd-feature-quick-container container">
+            
+            <div class="fd-feature-quick-card">
+                <div class="fd-feature-quick-icon">🍔</div>
+                <h3 class="fd-feature-quick-title">Menu</h3>
+                <p class="fd-feature-quick-text">
+                    Explore our delicious starters, burgers, pizzas and special chef dishes.
+                </p>
+                <a href="#" class="fd-feature-quick-btn">View Menu</a>
+            </div>
+    
+            <div class="fd-feature-quick-card">
+                <div class="fd-feature-quick-icon">🥡</div>
+                <h3 class="fd-feature-quick-title">Online Ordering</h3>
+                <p class="fd-feature-quick-text">
+                    Order your favourite meals online with fast and secure checkout.
+                </p>
+                <a href="#" class="fd-feature-quick-btn">Order Now</a>
+            </div>
+    
+            <div class="fd-feature-quick-card">
+                <div class="fd-feature-quick-icon">🚚</div>
+                <h3 class="fd-feature-quick-title">Delivery / Pickup</h3>
+                <p class="fd-feature-quick-text">
+                    Choose doorstep delivery or quick pickup from our restaurant.
+                </p>
+                <a href="#" class="fd-feature-quick-btn">Choose Option</a>
+            </div>
+    
+            <div class="fd-feature-quick-card">
+                <div class="fd-feature-quick-icon">📞</div>
+                <h3 class="fd-feature-quick-title">Contact</h3>
+                <p class="fd-feature-quick-text">
+                    Have questions? Get in touch with our friendly support team.
+                </p>
+                <a href="#" class="fd-feature-quick-btn">Contact Us</a>
+            </div>
+    
         </div>
-
-        <div class="fd-feature-quick-card">
-            <div class="fd-feature-quick-icon">🥡</div>
-            <h3 class="fd-feature-quick-title">Online Ordering</h3>
-            <p class="fd-feature-quick-text">
-                Order your favourite meals online with fast and secure checkout.
-            </p>
-            <a href="#" class="fd-feature-quick-btn">Order Now</a>
-        </div>
-
-        <div class="fd-feature-quick-card">
-            <div class="fd-feature-quick-icon">🚚</div>
-            <h3 class="fd-feature-quick-title">Delivery / Pickup</h3>
-            <p class="fd-feature-quick-text">
-                Choose doorstep delivery or quick pickup from our restaurant.
-            </p>
-            <a href="#" class="fd-feature-quick-btn">Choose Option</a>
-        </div>
-
-        <div class="fd-feature-quick-card">
-            <div class="fd-feature-quick-icon">📞</div>
-            <h3 class="fd-feature-quick-title">Contact</h3>
-            <p class="fd-feature-quick-text">
-                Have questions? Get in touch with our friendly support team.
-            </p>
-            <a href="#" class="fd-feature-quick-btn">Contact Us</a>
-        </div>
-
-    </div>
-</section>
+    </section>
 
 
     <!-- Start Menu 
@@ -697,6 +697,70 @@
         </div>
     </div>
     <!-- End Menu -->
+
+
+    <!-- Start Menu Categories -->
+    <section class="foodu-cat-section">
+        <div class="foodu-cat-container container">
+            
+            <div class="foodu-cat-header">
+                <h2 class="foodu-cat-title">Browse By Categories</h2>
+            </div>
+    
+            <div class="foodu-cat-slider-wrapper">
+    
+                <div class="foodu-cat-slider">
+    
+                    <a href="#" class="foodu-cat-item">
+                        <div class="foodu-cat-img-wrap">
+                            <img src="assets/img/gallaryitem1.jpeg" alt="">
+                        </div>
+                        <h4 class="foodu-cat-name">Burgers</h4>
+                    </a>
+    
+                    <a href="#" class="foodu-cat-item">
+                        <div class="foodu-cat-img-wrap">
+                            <img src="assets/img/gallaryitem2.jpeg" alt="">
+                        </div>
+                        <h4 class="foodu-cat-name">Pizza</h4>
+                    </a>
+    
+                    <a href="#" class="foodu-cat-item">
+                        <div class="foodu-cat-img-wrap">
+                            <img src="assets/img/gallaryitem3.jpeg" alt="">
+                        </div>
+                        <h4 class="foodu-cat-name">Fried Chicken</h4>
+                    </a>
+    
+                    <a href="#" class="foodu-cat-item">
+                        <div class="foodu-cat-img-wrap">
+                            <img src="assets/img/gallaryitem4.jpeg" alt="">
+                        </div>
+                        <h4 class="foodu-cat-name">Pasta</h4>
+                    </a>
+    
+                    <a href="#" class="foodu-cat-item">
+                        <div class="foodu-cat-img-wrap">
+                            <img src="assets/img/gallaryitem5.jpeg" alt="">
+                        </div>
+                        <h4 class="foodu-cat-name">Drinks</h4>
+                    </a>
+    
+                    <a href="#" class="foodu-cat-item">
+                        <div class="foodu-cat-img-wrap">
+                            <img src="assets/img/gallaryitem6.jpeg" alt="">
+                        </div>
+                        <h4 class="foodu-cat-name">Desserts</h4>
+                    </a>
+    
+                </div>
+    
+                <div class="foodu-cat-dots"></div>
+    
+            </div>
+        </div>
+    </section>
+    <!-- End Menu Categories -->
 
 
     <!-- Gallery
@@ -1405,6 +1469,91 @@
             "close"
         ],
     });
+</script>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const slider = document.querySelector(".foodu-cat-slider");
+    const items = document.querySelectorAll(".foodu-cat-item");
+    const dotsContainer = document.querySelector(".foodu-cat-dots");
+
+    let index = 0;
+    let itemsPerView = getItemsPerView();
+    let totalSlides = 0;
+    let autoSlide;
+
+    function getItemsPerView() {
+        if (window.innerWidth <= 575) return 2;
+        if (window.innerWidth <= 991) return 4;
+        return 6;
+    }
+
+    function checkOverflow() {
+        return items.length > itemsPerView;
+    }
+
+    function createDots() {
+        dotsContainer.innerHTML = "";
+        totalSlides = Math.ceil(items.length / itemsPerView);
+
+        if (!checkOverflow()) {
+            dotsContainer.style.display = "none";
+            clearInterval(autoSlide);
+            slider.style.transform = "translateX(0)";
+            return;
+        }
+
+        dotsContainer.style.display = "block";
+
+        for (let i = 0; i < totalSlides; i++) {
+            const dot = document.createElement("span");
+            dot.classList.add("foodu-cat-dot");
+            if (i === 0) dot.classList.add("active");
+
+            dot.addEventListener("click", () => {
+                index = i;
+                updateSlider();
+            });
+
+            dotsContainer.appendChild(dot);
+        }
+
+        startAutoplay();
+    }
+
+    function updateSlider() {
+        const itemWidth = items[0].offsetWidth + 30;
+        slider.style.transform = `translateX(-${index * itemWidth * itemsPerView}px)`;
+
+        document.querySelectorAll(".foodu-cat-dot").forEach(dot => dot.classList.remove("active"));
+        if (document.querySelectorAll(".foodu-cat-dot")[index]) {
+            document.querySelectorAll(".foodu-cat-dot")[index].classList.add("active");
+        }
+    }
+
+    function startAutoplay() {
+        clearInterval(autoSlide);
+        autoSlide = setInterval(() => {
+            index++;
+            if (index >= totalSlides) {
+                index = 0;
+            }
+            updateSlider();
+        }, 3000);
+    }
+
+    window.addEventListener("resize", function () {
+        itemsPerView = getItemsPerView();
+        index = 0;
+        createDots();
+        updateSlider();
+    });
+
+    createDots();
+
+});
 </script>
 
 
